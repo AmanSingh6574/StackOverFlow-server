@@ -91,7 +91,7 @@ const DATABASE_URL = process.env.CONNECTION_URL;
 
 mongoose.set("strictQuery", true);
 mongoose
-  .connect("mongodb://localhost:27017/newstackdata", {
+  .connect(`mongodb+srv://amansingh6574:${l3ZeXJ1KjWymGVjB}@cluster0.7uex9w0.mongodb.net/StackDataBase`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
